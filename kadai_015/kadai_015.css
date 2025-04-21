@@ -1,10 +1,10 @@
 html{
-  font-size: 20px;
-  text-align: center;
   body {
     font-family: "Arial", "Meiryo", sans-serif;
+    font-size: 20px;
+    text-align: center;
     h1 {
-      font-family: Josefin Sans, sans-serif;
+      font-family: "Josefin Sans", sans-serif;
       font-size: 2rem;
       border-bottom: solid 3px rgb(115, 115, 114);
       text-shadow: 1px 2px 3px gray;
@@ -17,9 +17,11 @@ html{
       letter-spacing: 1.2em;
     }
     #basic {
-      font-weight: bold;
+      >p{
+        font-weight: bold;
+      }
       .blue{
-        color:skyblue
+        color:skyblue;
       }
       .pink{
         color:rgb(255, 192, 203);
