@@ -31,6 +31,10 @@ main {
   margin: 20px 0;
   text-align: center;
 }
+.contents img{
+  width:100%;
+  height:auto;
+}
 .contents h2 {
   font-size: 25px;
   border-bottom: 3px dotted rgb(239,122,122);
